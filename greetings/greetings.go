@@ -14,6 +14,7 @@ func Hello(name string) string {
 	// var message string
 	// message = fmt.Sprintf("Hello, %v . Welcome")
 
-	message := fmt.Sprintf("Hi, %v. Welcome!" , name);
-	return message;
+	// fmt.Sprintf is (save formatted string and return the string to us)
+	message := fmt.Sprintf("Hi, %v. Welcome!", name)
+	return message
 }
