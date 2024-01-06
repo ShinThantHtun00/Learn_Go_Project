@@ -20,6 +20,10 @@ func main() {
 	fmt.Print(f)
 	fmt.Print(g)
 	fmt.Print(isIt)
+	fmt.Printf("The type of i is %T", i)
+	fmt.Printf("The type of f is %T", f)
+	fmt.Printf("The type of g is %T", g)
+	fmt.Printf("The type of isIt is %T", isIt)
 	fmt.Printf("The future most successful guy in the world is %v", SuccessGuy)
 
 }
