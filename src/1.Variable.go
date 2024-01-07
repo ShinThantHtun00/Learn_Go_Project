@@ -27,4 +27,10 @@ func main() {
 	// fmt.Printf("The future most successful guy in the world is %v", SuccessGuy)
 	averageOpenRate, displayMessage := 0.23, "Hello"
 	fmt.Println(averageOpenRate, displayMessage)
+
+	var temperatureInt int
+	temperatureInt = 88
+	temperatureFloat := float32(temperatureInt)
+	fmt.Println(temperatureInt, temperatureFloat)
+
 }
